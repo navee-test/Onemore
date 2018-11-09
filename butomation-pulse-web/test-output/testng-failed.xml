@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [suite]" parallel="tests">
+  <test thread-count="2" name="tests12(failed)" parallel="tests">
+    <parameter name="deviceID" value="android"/>
+    <classes>
+      <class name="com.demos1.Seetestparalle">
+        <methods>
+          <include name="paralle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.demos1.Seetestparalle -->
+    </classes>
+  </test> <!-- tests12(failed) -->
+</suite> <!-- Failed suite [suite] -->

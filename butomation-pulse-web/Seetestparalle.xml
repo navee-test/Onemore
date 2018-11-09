@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite" parallel="tests" thread-count="2">
+    <test name="tests1">
+        <parameter name="deviceID" value="ios" />  
+        <classes>
+            <class name="com.demos1.Seetestparalle" />
+        </classes>
+    </test>
+    <test name="tests12">
+        <parameter name="deviceID" value="android" /> 
+        <classes>
+            <class name="com.demos1.Seetestparalle" />
+        </classes>
+    </test>
+   
+</suite>

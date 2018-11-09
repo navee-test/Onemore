@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="67498" started-at="2018-11-01T07:46:07Z" finished-at="2018-11-01T07:47:14Z">
+    <groups>
+    </groups>
+    <test name="tests1" duration-ms="63837" started-at="2018-11-01T07:46:07Z" finished-at="2018-11-01T07:47:11Z">
+      <class name="com.demos1.Seetestparalle">
+        <test-method status="PASS" signature="paralle(java.lang.String)[pri:0, instance:com.demos1.Seetestparalle@e874448]" name="paralle" duration-ms="63821" started-at="2018-11-01T07:46:07Z" finished-at="2018-11-01T07:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paralle -->
+      </class> <!-- com.demos1.Seetestparalle -->
+    </test> <!-- tests1 -->
+    <test name="tests12" duration-ms="67498" started-at="2018-11-01T07:46:07Z" finished-at="2018-11-01T07:47:14Z">
+      <class name="com.demos1.Seetestparalle">
+        <test-method status="PASS" signature="paralle(java.lang.String)[pri:0, instance:com.demos1.Seetestparalle@11758f2a]" name="paralle" duration-ms="67480" started-at="2018-11-01T07:46:07Z" finished-at="2018-11-01T07:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paralle -->
+      </class> <!-- com.demos1.Seetestparalle -->
+    </test> <!-- tests12 -->
+  </suite> <!-- suite -->
+</testng-results>
