@@ -17,10 +17,12 @@ public class Paralletesting {
 		if(browser1.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", "D://temp//butomation-pulse-web//driv//chromedriver.exe");
 			driver = new ChromeDriver();
+			System.out.println("git check");
 		}
 		else if(browser1.equalsIgnoreCase("ie")){
 			System.setProperty("webdriver.ie.driver", "D://temp//butomation-pulse-web//src//IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
+			System.out.println("git check");
 		}
 		else if(browser1.equalsIgnoreCase("edge")){
 			System.setProperty("webdriver.edge.driver", "D://temp//butomation-pulse-web//driv//MicrosoftWebDriver.exe");
